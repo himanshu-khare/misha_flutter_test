@@ -20,7 +20,9 @@ Widget buildLoadingIndicator() {
 void buildDialogLoadingIndicator() {
   Future.delayed(Duration.zero, () {
     Get.dialog(
+      
       buildLoadingIndicator(),
+      barrierDismissible: false
     );
   });
 }

@@ -11,6 +11,11 @@ dependencies:
   cloud_firestore: ^3.4.6
   velocity_x: 3.5.1
   firebase_core: 1.21.1
+  flutter_quill: ^5.4.2
+  image_picker: 0.8.5+3
+  firebase_storage: 10.3.7
+  flutter_swipe_action_cell: ^3.0.4
+  intl: 0.17.0
   flutter: 
     sdk: flutter
 
